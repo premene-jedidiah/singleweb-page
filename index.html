@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Page Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="getDateTime()">
+    <main>
+    <div id="profile">
+        <h1 class="logo">JediWorld</h1>    
+        <p id="ddate"></p>    
+        <img src="img/jedidiah.jpg.jpg" alt="picture of jedidiah" data-testid="slackProfilePicture"> 
+        <h3 data-testid="slackDisplayName">Jedidiah Premene</h3>
+        <p><a href="mailto:premenejedidiah@gmail.com" data-testid="slackEmail">premenejedidiah@gmail.com</a></p>
+    </div>
+
+    <div class="goal-section">
+        <h1>My Goals for the next 2 years in Tech</h1>
+        <ul>
+            <li>Complete an advanced course in a relevant programming language (e.g, nodejs, python)</li>
+            <li>Attend at least two tech conferences or meetups.</li>
+            <li>Start a personal project that applies newly learned skills</li>
+            <li>Contribute to open-source projects on platforms like Github</li>
+            <li>Start a side project or business that leverages my specialized skills</li>
+            <li>Take a leadership role in a project or team</li>
+            <li>Develop skills in project management development</li>
+        </ul>
+    </div>
+    </main>
+    <footer>
+        <div>
+            <p><a href="https://hng.tech/learn">HNG Website</a></p>
+            <p><a href="https://keyword.dog/" data-testid="keywordlink">keyword.dog</a></p>
+            <p><a href="https://scrapeanyweb.site/" data-testid="scrapeanyweblink">scrapeanyweb.site</a></p>
+        </div>
+    </footer>
+    <script src="/script.js"></script>
+</body>
+</html>
