@@ -6,11 +6,12 @@
     <title>Single Page Website</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body onload="getDateTime()">
+<body>
     <main>
     <div id="profile">
         <h1 class="logo">JediWorld</h1>    
-        <p id="ddate"></p>    
+        <p data-testid="currentTimeUTC" id="utcTime"></p>
+        <p data-testid="currentDay" id="currentDay"></p>
         <img src="img/jedidiah.jpg.jpg" alt="picture of jedidiah" data-testid="slackProfilePicture"> 
         <h3 data-testid="slackDisplayName">Jedidiah Premene</h3>
         <p><a href="mailto:premenejedidiah@gmail.com" data-testid="slackEmail">premenejedidiah@gmail.com</a></p>
@@ -29,6 +30,7 @@
         </ul>
     </div>
     </main>
+
     <footer>
         <div>
             <p><a href="https://hng.tech/learn">HNG Website</a></p>
@@ -36,6 +38,6 @@
             <p><a href="https://scrapeanyweb.site/" data-testid="scrapeanyweblink">scrapeanyweb.site</a></p>
         </div>
     </footer>
-    <script src="/script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
